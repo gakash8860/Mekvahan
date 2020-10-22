@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="#ffffff"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@drawable/background" />
+    <TextView
+        android:id="@+id/textA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hold Up Tight"
+        android:layout_below="@+id/imageView9"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="442dp"
+        android:layout_height="259dp"
+        android:layout_below="@+id/textA"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        tools:srcCompat="@drawable/background2" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="330dp"
+
+        tools:srcCompat="@drawable/car" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="waiting for a while,finding"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+     android:layout_below="@+id/imageView10"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="best drives for you"
+        android:layout_below="@+id/textView14"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/button3"
+        android:layout_width="163dp"
+        android:layout_height="28dp"
+        android:background="@drawable/shape"
+        android:text="Cancel"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="624dp" />
+</RelativeLayout>

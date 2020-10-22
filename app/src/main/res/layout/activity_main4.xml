@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:orientation="vertical"
+    android:padding="100dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="74dp"
+        android:layout_height="48dp"
+       android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        tools:srcCompat="@drawable/ok2" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Booking Succesfull"
+        android:textColor="#0E0E0E"
+        android:textSize="23sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our representative will pick your vehicle at the given time"
+       android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#BAB9B9"
+         />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:background="#EF1212"
+        android:text="Track Order"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+         />
+</LinearLayout>
